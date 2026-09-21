@@ -1,0 +1,7 @@
+This starter repository contains orchestration code only.
+
+Kernel source, vendor code, SukiSU, SUSFS, KPM-related code, and other
+third-party components retain their respective upstream licenses.
+
+Add the appropriate license notices before redistributing any third-party
+source code.
