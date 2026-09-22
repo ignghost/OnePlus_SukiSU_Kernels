@@ -1,0 +1,25 @@
+features:
+  sukisu:
+    type: mandatory-choice
+    modes: [enable, disable]
+
+  susfs:
+    type: optional
+    modes: [auto, enable, disable]
+
+  kpm:
+    type: optional
+    modes: [auto, enable, disable]
+
+  bbr:
+    type: optional
+    modes: [auto, enable, disable]
+
+  bbrv3:
+    type: optional
+    modes: [auto, enable, disable]
+    depends_on: [bbr]
+
+  netsync:
+    type: optional
+    modes: [auto, enable, disable]
