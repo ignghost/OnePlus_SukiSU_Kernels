@@ -1,6 +1,0 @@
-toolchains:
-  default:
-    auto: true
-    compiler: clang
-    host_cc: clang
-    cross_compile: aarch64-linux-gnu-
